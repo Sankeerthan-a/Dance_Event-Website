@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #3d2a67;
+}
+.navbar {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  color: #333!important;
+}
+
+.no-decoration {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-outline-danger {
+  transition: background-color 0.3s ease;
+}
+
+.btn-outline-danger:hover {
+  background-color: #333;
+  color: white;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3d2a67;;
+}
+
+/* Background color for the entire card section */
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #3d2a67; /* Section background color */
+}
+
+/* Background color for each card */
+.card {
+  background-color: #5a4b8a; /* Card background color */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+  text-align: center;
+}
+
+.card-content h3 {
+  color: #fff; /* White text color */
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.card-content p {
+  color: #ddd; /* Light text color */
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.explore-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8a6bbd;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: #a991d5;
+}
+
+@media (max-width: 768px) {
+  .card {
+      width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+      width: 100%;
+  }
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.no-decoration {
+  text-decoration: none;
+  color: inherit; 
+}

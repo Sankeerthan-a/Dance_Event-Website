@@ -1,0 +1,120 @@
+/* General Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  text-align: center;
+  color: #3d2a67;
+  margin-top: 30px;
+}
+
+h3 {
+  color: #5a4b8a;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+h4 {
+  color: white;
+  background-color: rgba(90, 75, 138, 0.8);
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+/* Navbar Styling */
+.navbar {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  color: #333!important;
+}
+
+.no-decoration {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-outline-danger {
+  transition: background-color 0.3s ease;
+}
+
+.btn-outline-danger:hover {
+  background-color: #333;
+  color: white;
+}
+.fan {
+  text-align: center;
+  background-color: #fff;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in; /* Animation for fade-in effect */
+}
+
+.fan h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.fan h3 {
+  font-size: 24px;
+  margin: 30px 0 20px 0;
+  color: #555;
+}
+
+.fans {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s ease; /* Smooth transform transition */
+}
+
+.fans:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.fans img {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: filter 0.3s ease; /* Smooth filter transition */
+}
+
+.fans:hover img {
+  filter: brightness(1.1);
+}
+
+.fans h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+
+.no-decoration {
+  text-decoration: none;
+  color: inherit; 
+}

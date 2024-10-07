@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-link {
+    color: #333!important;
+  }
+  
+  .no-decoration {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .btn-outline-danger {
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-outline-danger:hover {
+    background-color: #333;
+    color: white;
+  }
+  
+  h2 {
+    text-align: center; /* Center-align headings */
+    font-size: 2em;
+    margin: 20px 0;
+  }
+  
+  .about-section {
+    background-color: rgba(90, 75, 138, 0.8); /* Semi-transparent background for About section */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for animations */
+  }
+  
+  .dance-section {
+    background-color: rgba(90, 75, 138, 0.8); /* Semi-transparent background for Dance sections */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for animations */
+  }
+  
+  .common-ground-section {
+    background-color: rgba(90, 75, 138, 0.8); /* Semi-transparent background for Common Ground section */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for animations */
+  }
+  
+  .conclusion-section {
+    background-color: rgba(90, 75, 138, 0.8); /* Semi-transparent background for Conclusion section */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for animations */
+  }
+  
+  .about-section:hover, 
+  .dance-section:hover, 
+  .common-ground-section:hover, 
+  .conclusion-section:hover {
+    transform: translateY(-5px); /* Slight upward movement on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0; /* Spacing between list items */
+    transition: color 0.3s ease; /* Transition for text color change */
+  }
+  
+  li:hover {
+    color: #8a6bbd; /* Change color on hover */
+  }
+  
+  /* Animation for loading sections */
+  @keyframes fadeIn {
+    from {
+        opacity: 0; /* Start with invisible */
+        transform: translateY(20px); /* Move down */
+    }
+    to {
+        opacity: 1; /* Fade in to visible */
+        transform: translateY(0); /* Move back to original position */
+    }
+  }
+  
+  .about-section, 
+  .dance-section, 
+  .common-ground-section, 
+  .conclusion-section {
+    animation: fadeIn 0.8s ease; /* Apply animation */
+  }
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  
+  
+  
+  .no-decoration {
+    text-decoration: none;
+    color: inherit; 
+  }    

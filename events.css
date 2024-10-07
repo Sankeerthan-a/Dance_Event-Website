@@ -1,0 +1,121 @@
+/* General Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  text-align: center;
+  color: #3d2a67;
+  margin-top: 30px;
+}
+
+h3 {
+  color: #5a4b8a;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+h4 {
+  color: white;
+  background-color: rgba(90, 75, 138, 0.8);
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+/* Navbar Styling */
+.navbar {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  color: #333!important;
+}
+
+.no-decoration {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-outline-danger {
+  transition: background-color 0.3s ease;
+}
+
+.btn-outline-danger:hover {
+  background-color: #333;
+  color: white;
+}
+body {
+  background-color: #3d2a67; /* Background color for the body */
+  color: white; /* Default text color */
+  font-family: Arial, sans-serif; /* Font style */
+  margin: 0;
+  padding: 0;
+}
+
+.event-gallery {
+  padding: 20px;
+  text-align: center; /* Center the gallery title */
+}
+
+.gallery-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.event-card {
+  background: linear-gradient(135deg, #5a4b8a, #8a6bbd); /* Gradient background for cards */
+  border-radius: 10px; /* Rounded corners */
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for animations */
+  flex: 1 1 calc(33.333% - 20px); /* Flexbox for responsive layout */
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Align content vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+}
+
+.event-card:hover {
+  transform: translateY(-5px); /* Slight upward movement on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+@media (max-width: 768px) {
+  .event-card {
+      flex: 1 1 calc(50% - 20px); /* Adjust to 2 cards per row on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .event-card {
+      flex: 1 1 calc(100% - 20px); /* Stack cards on top of each other on mobile */
+  }
+}
+
+/* Flex container for the card layout */
+.event-gallery {
+  display: flex; /* Enable flexbox */
+  flex-wrap: wrap; /* Allow wrapping of items */
+  justify-content: center; /* Center items */
+}
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.no-decoration {
+  text-decoration: none;
+  color: inherit; 
+}

@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3d2a67;;
+  }
+  .navbar {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-link {
+    color: #333!important;
+  }
+  
+  .no-decoration {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .btn-outline-danger {
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-outline-danger:hover {
+    background-color: #333;
+    color: white;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+.navbar {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-link {
+    color: #333!important;
+  }
+  
+  .no-decoration {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .btn-outline-danger {
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-outline-danger:hover {
+    background-color: #333;
+    color: white;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  .login-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #3d2a67;
+  }
+  
+  .login-container p {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .login-container label {
+    font-size: 14px;
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  .login-container input[type="name"],
+  .login-container input[type="email"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .login-container .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-container .remember-forgot a {
+    color: #3d2a67;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  .login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3d2a67;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-container button:hover {
+    background-color: #5c439e;
+  }
+  
+  .login-container a {
+    color: #3d2a67;
+    text-decoration: none;
+  }
+  
+  .login-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-container p {
+    font-size: 14px;
+  }
+  .no-decoration {
+    text-decoration: none;
+    color: inherit; 
+}
+
+footer {
+background-color: #222;
+color: white;
+text-align: center;
+padding: 10px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+  
